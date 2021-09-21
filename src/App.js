@@ -1,10 +1,17 @@
 import React from 'react'
-import Resturant from './components/basics/Resturant';
+import UseEffect from './Hooks/basics/UseEffect';
+import Usestateee from "./Hooks/basics/Usestateee";
+// import  useEffect  from './Hooks/basics/UseEffect';
+import Usereducer from "./Hooks/basics/Usereducer";
+
 
 const App = () => {
   return (
     <>
-     <Resturant /> 
+      <Usestateee/>
+      {/* <UseEffect/> */}
+      {/* <Usereducer/> */}
+    
     </>
   )
 }
